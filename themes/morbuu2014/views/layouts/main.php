@@ -34,7 +34,7 @@
                     <li><a href="home.php?module=about" target="_blank">ติดต่อเรา</a></li>
                     <li><a href="#" target="_blank" rel="nofollow">ทดสอบความเร็ว Internet</a></li>
                     <li><a href="#" target="_blank" rel="nofollow">ดาวน์โหลด Google Chrome</a></li>
-                    <li><a href="#" target="_blank">หน้าแรก</a></li>
+                    <li><a href="<?php echo  Yii::app()->getBaseUrl(true)?>" target="_blank">หน้าแรก</a></li>
                 </ul>
             </nav>
         </div>
@@ -60,43 +60,43 @@
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">สาวน้อย Buu</p>
                             <p class="en">buu girls</p>
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">เมาท์สนั่นมอ</p>
                             <p class="en">talk of the town</p>
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">ร้านน่ากิน</p>
                             <p class="en">restaurant</p>
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">ที่พักรอบมอ</p>
                             <p class="en">apartment flat</p>
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">เที่ยวรอบมอ</p>
                             <p class="en">around buu</p>
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">วีดีโอ</p>
                             <p class="en">video</p>
                         </a>
                     </li>
                     <li>
-                        <a href="home.php?page=article/all-article">
+                        <a href="<?php echo Yii::app()->createUrl('category/view/', array('id' => 14)) ?>">
                             <p class="th font">ดูดวง</p>
                             <p class="en">horoscope</p>
                         </a>
@@ -121,7 +121,7 @@
             <!--Footer-->
             <footer class="bx footer">
                 <article>
-                    <p>Copyright &copy; 2012 <a href="#">morbuu.com</a> All rights reserved. Do not duplicate or redistribute in any form.</p>
+                    <p>Copyright &copy; 2012 <a href="www.morbuu.com">morbuu.com</a> All rights reserved. Do not duplicate or redistribute in any form.</p>
                     <p>เว็บไซต์นี้ไม่มีส่วนเกี่ยวข้องใดๆทั้งสิ้นกับส่วนราชการมหาวิทยาลัยบูรพาฯ เป็นเพียงเว็บไซต์สำหรับนิสิต นักศึกษาและบุคคลทั่วไปเท่านั้น <a href="#">ติดต่อทีมงาน</a></p>
                 </article>
             </footer>

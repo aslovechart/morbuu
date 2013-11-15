@@ -12698,3 +12698,210 @@ Stack trace:
 REQUEST_URI=/images/temp/temp_09.jpg
 HTTP_REFERER=http://morbuu.local/
 ---
+2013/11/15 03:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.min.js".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.min.js
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.min.js".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.min.js
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.min.js".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.min.js
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.min.js".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.min.js
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 03:59:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/index.php
+---
+2013/11/15 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/index.php
+---
+2013/11/15 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.min.js".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.min.js
+HTTP_REFERER=http://morbuu.local/index.php
+---
+2013/11/15 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "javascripts/slider/slider.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('javascripts/sli...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/javascripts/slider/slider.css
+HTTP_REFERER=http://morbuu.local/index.php
+---
+2013/11/15 04:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/index.php
+---
