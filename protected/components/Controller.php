@@ -15,6 +15,7 @@ class Controller extends CController
 	 */
 	public $menu=array();
         public $page = 20;
+        public $relate_category_id;
 	/**
 	 * @var array the breadcrumbs of the current page. The value of this property will
 	 * be assigned to {@link CBreadcrumbs::links}. Please refer to {@link CBreadcrumbs::links}

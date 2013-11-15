@@ -13143,3 +13143,768 @@ Stack trace:
 REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
 HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
 ---
+2013/11/15 04:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/30-%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%8A%E0%B8%B5%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2-%E0%B8%8A%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 06:40:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 06:40:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 06:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 06:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:48:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/like.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/lik...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/like.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/like.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/lik...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/like.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 06:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/share.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/sha...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/share.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/facebook_comment.png".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/fac...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/facebook_comment.png
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:16:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 07:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 07:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 07:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/
+---
+2013/11/15 07:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_01.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_01.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/temp/temp_09.jpg".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('images/temp/tem...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/temp/temp_09.jpg
+HTTP_REFERER=http://morbuu.local/63-%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B9%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%A7-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5
+---
+2013/11/15 07:47:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/54-%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%89%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B2
+---
+2013/11/15 07:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/26-%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B9%8C-sky-rider-%E0%B8%9E%E0%B8%B1%E0%B8%97%E0%B8%A2%E0%B8%B2
+---
+2013/11/15 07:53:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/morbuu2014/assets/stylesheets/framework-animate.css".' in C:\wamp\www\test\morbuu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\test\morbuu\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/morbuu20...')
+#1 C:\wamp\www\test\morbuu\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\test\morbuu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/morbuu2014/assets/stylesheets/framework-animate.css
+HTTP_REFERER=http://morbuu.local/52-%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%8A%E0%B8%A5-%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81
+---

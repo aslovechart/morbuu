@@ -5,7 +5,7 @@
     $criteria->limit = 1;
     $article = Article::model()->find($criteria);
 ?>
-<a class="hl rd" href="<?php echo Yii::app()->createUrl('/' . $article->id . '-' . $article->url_rewrite) ?>">
+<a class="hl rd" href="<?php echo Yii::app()->createUrl('/' . $article->id . '-' . $article->url_rewrite) ?>" target="_blank">
     <?php if ($article->image_over): ?>
             <img src="<?php echo $article->image_over ?>" class="rd" />
         <?php else: ?>
