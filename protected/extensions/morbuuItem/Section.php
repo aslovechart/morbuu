@@ -10,7 +10,7 @@
      *
      * @author apichart
      */
-    class Tabsection extends CInputWidget {
+    class Section extends CInputWidget {
 
         public $category_id;
         public $file_name;

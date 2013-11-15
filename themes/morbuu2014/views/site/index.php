@@ -62,24 +62,14 @@
                 <li><a href="#tab-4" class="font"><img src="<?php echo $baseUrl ?>images/icon/game.png"/>คอมพิวเตอร์</a></li>
                 <li><a href="#tab-5" class="font"><img src="<?php echo $baseUrl ?>images/icon/video.png"/>การ์ตูน</a></li>
             </ul>
-            <div id="tab-1" class="clearfix"> <?php $this->widget('ext.morbuuItem.Tabsection', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
-            <div id="tab-2" class="clearfix"><?php $this->widget('ext.morbuuItem.Tabsection', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
-            <div id="tab-3" class="clearfix"><?php $this->widget('ext.morbuuItem.Tabsection', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
-            <div id="tab-4" class="clearfix"><?php $this->widget('ext.morbuuItem.Tabsection', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
-            <div id="tab-5" class="clearfix"><?php $this->widget('ext.morbuuItem.Tabsection', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-1" class="clearfix"> <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-2" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-3" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-4" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-5" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
         </div>
         <div class="-09">
-            <a class="hl rd" href="#">
-                <img src="<?php echo $baseUrl ?>images/temp/temp_05.jpg" />
-                <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
-            </a>
-            <ul>
-                <li><a href="#">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ dolor sit amet</a></li>
-                <li><a href="#">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ dolor sit amet</a></li>
-                <li><a href="#">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ dolor sit amet</a></li>
-                <li><a href="#">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ dolor sit amet</a></li>
-                <li><a href="#">เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ dolor sit amet</a></li>
-            </ul>
+            <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-list')); ?>
         </div>
     </div>
     <div class="twin clearfix">
@@ -125,13 +115,7 @@
         <section class="mb-03">
             <div class="bx inner">
                 <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title" />
-                <a class="hl rd" href="#">
-                    <img src="<?php echo $baseUrl ?>images/temp/temp_05.jpg" />
-                    <p>เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16</p>
-                </a>
-                <ul>
-                    <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_list_name', 'limit' => 4, 'offset' => 1)); ?>
-                </ul>
+                <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-list')); ?>
             </div>
         </section>
         <section class="mb-04 bx">
