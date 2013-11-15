@@ -1,6 +1,6 @@
 <?php
     /* @var $model Article */
-    $this->pageTitle = Yii::app()->name . ' ' . $model->name;
+    $this->pageTitle = Yii::app()->name . ' - ' . $model->name;
     $this->breadcrumbs = array(
             $model->category->name => Yii::app()->createUrl('category/view', array('id' => $model->category->id)),
             $model->name,

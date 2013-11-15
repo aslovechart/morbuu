@@ -3,8 +3,8 @@
     <head>
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
         <meta charset="UTF-8"/>
-        <meta name="keywords" content="ใส่คำสำคัญ"/>
-        <meta name="description" content="ใส่เนื้อหาเกี่ยวกับเว็บไซต์"/>
+        <meta name="keywords" content="มอบู ดอทคอม,มอ บรูพา,มอบู,เด็ก บูรพา"/>
+        <meta name="description" content=""/>
         <meta name="author" content="Nutchapon Seelathon ,Supakorn Tatong ,Apichart Khairavi"/>
 
         <?php
@@ -13,28 +13,24 @@
             $cs->registerCssFile($baseUrl . 'stylesheets/normalize.css');
             $cs->registerCssFile($baseUrl . 'stylesheets/global.css');
             $cs->registerCssFile($baseUrl . 'javascripts/jquery-ui-1.10.3.custom.css');
-
+            $cs->registerCssFile($baseUrl . 'javascripts/custom.css');
 
             Yii::app()->clientScript->registerCoreScript('jquery');
             $cs->registerScriptFile($baseUrl . 'javascripts/jquery-ui-1.10.3.custom.min.js');
         ?>        
-        <!--        <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css"/>
-                <link href="stylesheets/global.css" rel="stylesheet" type="text/css"/>
-                <link href="javascripts/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css"/>
-                <script type="text/javascript" src="javascripts/jquery-2.0.3.min.js"></script>
-                <script type="text/javascript" src="javascripts/jquery-ui-1.10.3.custom.min.js"></script>-->
+        <meta property="fb:app_id" content="603565206372830"/>
     </head>
     <body id="morbuu">
         <div class="topbar">
             <nav class="center clearfix">
                 <article class="col_6">
-                    <p>morbuu.com แสดงผลได้ดีกับ Google Chrome , Safari , Firefox , Internet Explorer 9+</p>
+                    <p>มอบู ดอทคอม เป็นสื่อกลางพูดคุย และ อัพเดทข่าวสารเพื่อเด็กมอบู</p>
                 </article>
                 <ul class="col_6 clearfix">
                     <li><a href="home.php?module=about" target="_blank">ติดต่อเรา</a></li>
                     <li><a href="#" target="_blank" rel="nofollow">ทดสอบความเร็ว Internet</a></li>
                     <li><a href="#" target="_blank" rel="nofollow">ดาวน์โหลด Google Chrome</a></li>
-                    <li><a href="<?php echo  Yii::app()->getBaseUrl(true)?>" target="_blank">หน้าแรก</a></li>
+                    <li><a href="<?php echo Yii::app()->getBaseUrl(true) ?>" target="_blank">หน้าแรก</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +38,7 @@
             <!--Header-->
             <header class="header clearfix">
                 <div class="col_4">
-                    <a href="<?php echo  Yii::app()->getBaseUrl(true)?>" class="logo"><img src="<?php echo $baseUrl ?>images/logo.png"/></a>
+                    <a href="<?php echo Yii::app()->getBaseUrl(true) ?>" class="logo"><img src="<?php echo $baseUrl ?>images/logo.png"/></a>
                 </div>
                 <div class="col_8">
                     <div class="bn">
@@ -54,7 +50,7 @@
             <nav class="menu sh rd">
                 <ul class="clearfix">
                     <li>
-                        <a href="<?php echo  Yii::app()->getBaseUrl(true)?>">
+                        <a href="<?php echo Yii::app()->getBaseUrl(true) ?>">
                             <p class="th font">หน้าแรก</p>
                             <p class="en">homepage</p>
                         </a>

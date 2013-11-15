@@ -15,7 +15,7 @@
         <div class="bx sb-rl">
             <h1 class="font">หัวข้อที่เกี่ยวข้อง</h1>
             <div>
-                <?php $this->widget('ext.relatePost.RelatePost', array('category_id' => $this->relate_category_id)); ?>
+                <?php $this->widget('ext.relatePost.RelatePost', array('category_id' => $this->relate_category_id, 'limit' => $this->relate_limit, 'offset' => $this->relate_offset)); ?>
             </div>
         </div>
         <div class="bx tag">
