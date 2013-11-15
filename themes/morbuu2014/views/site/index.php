@@ -7,14 +7,18 @@
 ?>
 
 <!-- script cycle slider -->
-<script type="text/javascript" src="javascripts/slider/slider.min.js"></script>
-<link rel="stylesheet" href="javascripts/slider/slider.css" />
+
+<?php
+    $cs->registerCssFile($baseUrl . 'javascripts/slider/slider.css');
+
+    $cs->registerScriptFile($baseUrl . 'javascripts/slider/slider.min.js');
+?>
 <script language="javascript">
     $(document).ready(function() {
         $("#tabs").tabs();
         $('.slide').slides({
             preload: true,
-            preloadImage: 'javascripts/slider/images/loading.gif',
+            preloadImage: '<?php echo $baseUrl ?>javascripts/slider/images/loading.gif',
             play: 5000,
             pause: 2500,
             hoverPause: true
@@ -25,25 +29,14 @@
     <div class="clearfix">
         <section class="mb-01 bx">
             <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title"/>
-            <a href="home.php?page=article/article" target="_blank" class="thumb"><img class="rd" src="images/temp/temp_09.jpg"></a>
+            <a href="home.php?page=article/article" target="_blank" class="thumb"><img class="rd" src="<?php echo $baseUrl ?>images/temp/temp_09.jpg"></a>
             <p class="font"><a href="home.php?page=article/article" target="_blank"># น้องพลอย</a></p>
             <p class="font">เอกวิทยาศาสตร์การอาหาร (ชั่นปีที่ 4) <br>คณะวิทยาศาสตร์</p>
         </section>
         <section class="mb-02 bx clearfix">
             <div class="slide">
                 <div class="slides_container">
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="<?php echo $baseUrl ?>images/temp/temp_07.jpg"></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="<?php echo $baseUrl ?>images/temp/temp_08.jpg"></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="<?php echo $baseUrl ?>images/temp/temp_07.jpg"></a>
-                    </div>
-                    <div class="slide">
-                        <a href="#" target="_blank"><img src="<?php echo $baseUrl ?>images/temp/temp_08.jpg"></a>
-                    </div>
+                   <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_slide', 'limit' =>4)); ?>
                 </div>
             </div>
             <ul class="other">
