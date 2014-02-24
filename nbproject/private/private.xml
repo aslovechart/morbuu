@@ -1,29 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/C:/wamp/www/test/main/index.php</file>
-        <file>file:/C:/wamp/www/test/main/themes/morbuu2014/views/layouts/main.php</file>
-        <file>file:/C:/wamp/www/test/main/themes/smile2013/views/layouts/main.php</file>
-        <file>file:/C:/wamp/www/test/main/themes/morbuu2014/views/layouts/column1.php</file>
-        <file>file:/C:/wamp/www/test/main/themes/smile2013/views/layouts/column1.php</file>
-        <file>file:/C:/wamp/www/test/main/themes/morbuu2014/views/site/index.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/showGallery/ShowGallery.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/morbuuItem/MorbuuItem.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/morbuuItem/views/item_image_lage_name.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/showGallery/views/mini_image.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/views/site/index.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/morbuuItem/ShowByCategory.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/showIndex/ShowIndex.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/morbuuItem/views/show_by_category.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/showIndex/views/index.php</file>
-        <file>file:/C:/wamp/www/test/main/themes/admin/views/site/index.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/config/main.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/extensions/morbuuItem/views/item_image_mini_name.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/controllers/SiteController.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/components/Controller.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/components/ESaveRelatedBehavior.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/components/UserIdentity.php</file>
-        <file>file:/C:/wamp/www/test/main/protected/components/FormatDateTime.php</file>
-    </open-files>
 </project-private>

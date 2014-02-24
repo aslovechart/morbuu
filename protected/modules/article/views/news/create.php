@@ -1,17 +1,27 @@
 <?php
-/* @var $this NewsController */
-/* @var $model Article */
+    /* @var $this NewsController */
+    /* @var $model Article */
 
-$this->breadcrumbs=array(
-	'Articles'=>array('index'),
-	'Create',
-);
+    $this->breadcrumbs = array(
+            'News' => array('index'),
+            'Create',
+    );
 
-$this->menu=array(
-	array('label'=>'List Article', 'url'=>array('index')),
-);
+    $this->menu = array(
+            array('label' => 'Add News', 'icon' => 'edit', 'url' => array('create'), 'linkOptions' => array(
+                            'class' => 'btn btn-small btn-danger',
+                    ),
+            ),
+    );
 ?>
+<div class="page-header position-relative">
+    <h1>
+        News
+        <small>
+            <i class="icon-double-angle-right"></i>
+            Add
+        </small>
+    </h1>
+</div>
 
-<h1>Create Article</h1>
-
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php echo $this->renderPartial('_form', array('model' => $model)); ?>

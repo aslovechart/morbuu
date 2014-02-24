@@ -6,6 +6,7 @@
             $model->name,
     );
     $this->relate_category_id = $model->category_id;
+    $this->tag_article_id = $model->id;
 ?>
 
 <div class="bx article">

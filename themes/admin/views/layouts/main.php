@@ -29,7 +29,7 @@
                                 array('label' => 'รีวิว บทความ', 'url' => array('/article/review_article/')),
                                 array('label' => 'กิจกรรมดีๆ', 'url' => array('/article/activity/'),),
                         )),
-//                        array('label' => 'Contact', 'url' => array('/site/contact')),
+
                         array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
                         array('label' => 'Settings', 'icon' => 'cog white', 'url' => '#',
                             'items' => array(

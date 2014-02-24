@@ -18,6 +18,7 @@
         public $menu = array();
         public $page = 20;
         public $relate_category_id;
+        public $tag_article_id;
         public $relate_limit = 5;
         public $relate_offset = 0;
 

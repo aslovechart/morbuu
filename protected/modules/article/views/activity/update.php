@@ -1,18 +1,28 @@
 <?php
-/* @var $this Travel_around_thailandController */
-/* @var $model Article */
+    /* @var $this Travel_around_thailandController */
+    /* @var $model Article */
 
-$this->breadcrumbs=array(
-	'กิจกรรมดีๆ'=>array('index'),
-	$model->name=>array('update','id'=>$model->id),
-	'Update',
-);
+    $this->breadcrumbs = array(
+            'Activity' => array('index'),
+            $model->name => array('update', 'id' => $model->id),
+            'Update',
+    );
 
-$this->menu = array(
-    array('label' => 'Show All', 'icon' => 'list-alt', 'url' => array('index'),'active'=>Yii::app()->controller->action->id=='index'),
-    array('label' => 'Create', 'icon' => 'edit ', 'url' => array('create'),'active'=>Yii::app()->controller->action->id=='create'),
-);
+    $this->menu = array(
+            array('label' => 'Add News', 'icon' => 'edit', 'url' => array('create'), 'linkOptions' => array(
+                            'class' => 'btn btn-small btn-danger',
+                    ),),
+    );
 ?>
 
+<div class="page-header position-relative">
+    <h1>
+        Activity
+        <small>
+            <i class="icon-double-angle-right"></i>
+            Edit
+        </small>
+    </h1>
+</div>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php echo $this->renderPartial('_form', array('model' => $model)); ?>

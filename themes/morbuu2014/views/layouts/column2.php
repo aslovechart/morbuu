@@ -18,9 +18,17 @@
                 <?php $this->widget('ext.relatePost.RelatePost', array('category_id' => $this->relate_category_id, 'limit' => $this->relate_limit, 'offset' => $this->relate_offset)); ?>
             </div>
         </div>
+        <?php
+            if ($this->tag_article_id) {
+                $criteria = new CDbCriteria();
+                $criteria->condition = 'article_id = ' . $this->tag_article_id;
+                $tag = Tag::model()->findAll($criteria);
+            }
+        ?>
         <div class="bx tag">
             <h1 class="font">คำยอดนิยม</h1>
             <div class="clearfix">
+
                 <a href="#">ครูอังคณา</a>
                 <a href="#">facebook</a>
                 <a href="#">iPhone 5</a>
