@@ -27,11 +27,7 @@
 		<?php echo $form->error($model,'password'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'nick_name'); ?>
-		<?php echo $form->textField($model,'nick_name',array('size'=>45,'maxlength'=>45)); ?>
-		<?php echo $form->error($model,'nick_name'); ?>
-	</div>
+	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'created'); ?>

@@ -2,7 +2,7 @@
 <html lang="en">
     <head> 
         <meta charset="utf-8" />
-        <title>Dashboard - Ace Admin</title>
+        <title><?php echo CHtml::encode($this->pageTitle); ?></title>
         <?php $baseUrl = Yii::app()->theme->baseUrl . '/'; ?>
         <meta name="description" content="overview &amp; stats" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,7 +42,7 @@
                 <div class="container-fluid">
                     <a href="<?php echo Yii::app()->createUrl('/myadmin') ?>" class="brand">
                         <small>
-                            <i class="icon-leaf"></i>
+                            <i class="icon-laptop"></i>
                             Admin 
                         </small>
                     </a><!--/.brand-->
@@ -352,10 +352,21 @@
                                             'itemOptions' => array('class' => $module_name == 'article' ? 'open' : ''),
                                             'active' => $module_name == 'article'
                                     ),
+                                    array('label' => '<i class="icon-group"></i> Manage User <b class="arrow icon-angle-down"></b>', 'url' => '#',
+                                            'submenuOptions' => array('class' => 'submenu'),
+                                            'items' => array(
+                                                    array('label' => 'Users', 'url' => array('/member/user/'), 'active' => $controller_name == 'user'),
+                                                    array('label' => 'User Groups', 'url' => array('/member/userGroup/'), 'active' => $controller_name == 'userGroup'),
+                                            ),
+                                            'linkOptions' => array('class' => 'dropdown-toggle'),
+                                            'itemOptions' => array('class' => $module_name == 'member' ? 'open' : ''),
+                                            'active' => $module_name == 'member'
+                                    ),
                                     array('label' => '<i class="icon-cog"></i> Setting <b class="arrow icon-angle-down"></b>', 'url' => '#',
                                             'submenuOptions' => array('class' => 'submenu'),
                                             'items' => array(
                                                     array('label' => 'Page Default', 'url' => array('/setting/page/'), 'active' => $controller_name == 'page'),
+                                                    array('label' => 'Categories', 'url' => array('/setting/category/'), 'active' => $controller_name == 'category'),
                                             ),
                                             'linkOptions' => array('class' => 'dropdown-toggle'),
                                             'itemOptions' => array('class' => $module_name == 'setting' ? 'open' : ''),
@@ -375,33 +386,33 @@
 
             <div class="main-content">
                 <div class="breadcrumbs" id="breadcrumbs">
-                    <?php if (isset($this->breadcrumbs)): ?>
-                            <?php
-                            $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
-                                    'homeLink' => '<i class="icon-dashboard"></i>' . CHtml::link('Dashboard', Yii::app()->createUrl('myadmin')),
-                                    'links' => $this->breadcrumbs,
-                                    'separator' => '<span class="divider">
+<?php if (isset($this->breadcrumbs)): ?>
+        <?php
+        $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+                'homeLink' => '<i class="icon-dashboard"></i>' . CHtml::link('Dashboard', Yii::app()->createUrl('myadmin')),
+                'links' => $this->breadcrumbs,
+                'separator' => '<span class="divider">
 								<i class="icon-angle-right arrow-icon"></i>
 							</span>',
-                            ));
-                            ?><!-- breadcrumbs -->
+        ));
+        ?><!-- breadcrumbs -->
                         <?php endif ?>
 
                     <div class="nav-search" id="nav-search">
-                        <?php
-                            $this->widget('bootstrap.widgets.TbMenu', array(
-                                    'type' => 'pills ',
-                                    'items' => $this->menu,
-                                    // 'htmlOptions' => array('class' => 'nav nav-pills'),
-                            ));
-                        ?>
+                    <?php
+                        $this->widget('bootstrap.widgets.TbMenu', array(
+                                'type' => 'pills ',
+                                'items' => $this->menu,
+                                // 'htmlOptions' => array('class' => 'nav nav-pills'),
+                        ));
+                    ?>
                     </div><!--#nav-search-->
                 </div>
 
                 <div class="page-content">                   
                     <div class="row-fluid">
                         <div class="span12">
-                            <?php echo $content; ?>
+<?php echo $content; ?>
                         </div>
                     </div><!--/.row-fluid-->
                 </div><!--/.page-content-->

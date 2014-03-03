@@ -1,21 +1,21 @@
 <?php
-/* @var $this NewsController */
-/* @var $model Article */
-/* @var $form CActiveForm */
+    /* @var $this NewsController */
+    /* @var $model Article */
+    /* @var $form CActiveForm */
 ?>
 
 <div class="form">
 
     <?php
-    $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
-        'id' => 'article-form',
-        'type' => 'horizontal',
-        'enableClientValidation' => true,
-        'id' => 'control-form',
-        'clientOptions' => array(
-            'validateOnSubmit' => true,
-        ),
-            ));
+        $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
+                'id' => 'article-form',
+                'type' => 'horizontal',
+                'enableClientValidation' => true,
+                'id' => 'control-form',
+                'clientOptions' => array(
+                        'validateOnSubmit' => true,
+                ),
+        ));
     ?>
     <fieldset>
 
@@ -39,20 +39,20 @@
                     <div class="span10" style="padding: 0;margin: 0;">
 
                         <?php
-                        $this->widget('application.extensions.eckeditor.ECKEditor', array(
-                            'model' => $model,
-                            'attribute' => 'content',
-                            'config' => array(
-                                'height' => '400px',
-                                'width' => '100%',
-                                'filebrowserBrowseUrl' => Yii::app()->baseUrl . '/ckfinder/ckfinder.html',
-                                'filebrowserImageBrowseUrl' => Yii::app()->baseUrl . '/ckfinder/ckfinder.html?Type=Images',
-                                'filebrowserFlashBrowseUrl' => Yii::app()->baseUrl . '/ckfinder/ckfinder.html?Type=Flash',
-                                'filebrowserUploadUrl' => Yii::app()->baseUrl . '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
-                                'filebrowserImageUploadUrl' => Yii::app()->baseUrl . '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
-                                'filebrowserFlashUploadUrl' => Yii::app()->baseUrl . '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
-                            ),
-                        ));
+                            $this->widget('application.extensions.eckeditor.ECKEditor', array(
+                                    'model' => $model,
+                                    'attribute' => 'content',
+                                    'config' => array(
+                                            'height' => '400px',
+                                            'width' => '100%',
+                                            'filebrowserBrowseUrl' => Yii::app()->baseUrl . '/ckfinder/ckfinder.html',
+                                            'filebrowserImageBrowseUrl' => Yii::app()->baseUrl . '/ckfinder/ckfinder.html?Type=Images',
+                                            'filebrowserFlashBrowseUrl' => Yii::app()->baseUrl . '/ckfinder/ckfinder.html?Type=Flash',
+                                            'filebrowserUploadUrl' => Yii::app()->baseUrl . '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+                                            'filebrowserImageUploadUrl' => Yii::app()->baseUrl . '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+                                            'filebrowserFlashUploadUrl' => Yii::app()->baseUrl . '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'
+                                    ),
+                            ));
                         ?>
                     </div>
                 </div>
@@ -67,16 +67,16 @@
                 <div class="controls">
                     <div>
                         <?php
-                        $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-                            'model' => $model,
-                            'attribute' => 'set_time_show',
-                            'value' => date("d-m-Y", time() + 60 * 60 * 24),
-                            'htmlOptions' => array(
-                                'size' => '20', // textField size
-                                'maxlength' => '10', // textField maxlength
-                            ),
-                            'options' => array('dateFormat' => 'yy-mm-dd', 'minDate' => 'new Date()',),
-                        ));
+                            $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                                    'model' => $model,
+                                    'attribute' => 'set_time_show',
+                                    'value' => date("d-m-Y", time() + 60 * 60 * 24),
+                                    'htmlOptions' => array(
+                                            'size' => '20', // textField size
+                                            'maxlength' => '10', // textField maxlength
+                                    ),
+                                    'options' => array('dateFormat' => 'yy-mm-dd', 'minDate' => 'new Date()',),
+                            ));
                         ?>
                     </div>
                 </div>
@@ -88,26 +88,26 @@
                 <div class="controls ">
                     <div >
                         <?php
-                        $tag = Tag::model()->findAll(array('group'=>'name'));
-                        $arr_tag = CHtml::listData($tag, 'id', 'name');
-                        explode(',',implode(',',$arr_tag));
+                            $tag = Tag::model()->findAll(array('group' => 'name'));
+                            $arr_tag = CHtml::listData($tag, 'id', 'name');
+                            explode(',', implode(',', $arr_tag));
                         ?>
                         <?php
-                        $this->widget('application.extensions.multicomplete.MultiComplete', array(
-                            'model' => $model,
-                            'attribute' => 'tag',
-                            'splitter' => ',',
-                            'source' => explode(',',implode(',',$arr_tag)),
-                            //'sourceUrl' => 'search.html',
-                            // additional javascript options for the autocomplete plugin
-                            'options' => array(
-                                'minLength' => '2',
-                            ),
-                            'htmlOptions' => array(
-                                'size' => '60',
-                                'class' => 'span10'
-                            ),
-                        ));
+                            $this->widget('application.extensions.multicomplete.MultiComplete', array(
+                                    'model' => $model,
+                                    'attribute' => 'tag',
+                                    'splitter' => ',',
+                                    'source' => explode(',', implode(',', $arr_tag)),
+                                    //'sourceUrl' => 'search.html',
+                                    // additional javascript options for the autocomplete plugin
+                                    'options' => array(
+                                            'minLength' => '2',
+                                    ),
+                                    'htmlOptions' => array(
+                                            'size' => '60',
+                                            'class' => 'span10'
+                                    ),
+                            ));
                         ?>
                     </div>
                 </div>
@@ -119,12 +119,12 @@
                 <?php echo $form->labelEx($model, 'image_over', array('class' => 'control-label')); ?>
                 <div class="controls ">
                     <div >
-                        <?php if (!$model->isNewRecord && $model->image_over!=''):?>
-                            <span class="img_over"><img src="<?php echo $model->image_over?>" width="100"/></span>
-                        <?php else:?>
-                            <span class="img_over"></span>
-                        <?php endif;?>
-                        
+                        <?php if (!$model->isNewRecord && $model->image_over != ''): ?>
+                                <span class="img_over"><img src="<?php echo $model->image_over ?>" width="100"/></span>
+                            <?php else: ?>
+                                <span class="img_over"></span>
+                        <?php endif; ?>
+
                         <?php echo $form->hiddenField($model, 'image_over'); ?>
                         <?php $this->widget('ext.finder.EImageFinder', array('fieldName' => 'Article_image_over')); ?>
                     </div>
@@ -138,12 +138,13 @@
         <div class="row">
             <div class="control-group ">
                 <?php echo $form->labelEx($model, 'active', array('class' => 'control-label required')); ?>
-                <div class="controls">
-                    <div class="make-switch switch-small">
-                        <?php echo $form->checkBox($model, 'active'); ?>
-                    </div>
+                <div class="controls ">
+                    <?php echo $form->checkBox($model, 'active', array('class' => 'ace-switch ace-switch-7', 'value' => 1, 'uncheckValue' => 0)); ?>
+                    <span class="lbl"></span>
+
                 </div>
             </div>
+
 
         </div>
 
@@ -157,7 +158,7 @@
 
 
 <?php
-Yii::app()->clientScript->registerScript('friendlyURL', "
+    Yii::app()->clientScript->registerScript('friendlyURL', "
  $('.friendlyURL').live('keyup',function(){
             $('.url_rewrite').val(str2url($(this).val().replace(/^[0-9]+\./, ''), 'UTF-8'));
         });
