@@ -338,7 +338,7 @@
                     $this->widget('zii.widgets.CMenu', array(
                             'encodeLabel' => false,
                             'items' => array(
-                                    array('label' => '<i class="icon-dashboard"></i> Dashboard', 'icon' => 'icon-dashboard', 'url' => Yii::app()->createUrl('/myadmin'), 'active' => $controller_name == 'myadmin'),
+                                    array('label' => '<i class="icon-dashboard"></i> Dashboard', 'icon' => 'icon-dashboard', 'url' => Yii::app()->createUrl('/myadmin'), 'active' => $module_name == 'myadmin'),
                                     array('label' => '<i class="icon-edit"></i> Articles <b class="arrow icon-angle-down"></b>', 'url' => '#',
                                             'submenuOptions' => array('class' => 'submenu'),
                                             'items' => array(
@@ -362,7 +362,7 @@
                                             'itemOptions' => array('class' => $module_name == 'member' ? 'open' : ''),
                                             'active' => $module_name == 'member'
                                     ),
-                                    array('label' => '<i class="icon-cog"></i> Setting <b class="arrow icon-angle-down"></b>', 'url' => '#',
+                                    array('label' => '<i class="icon-cogs"></i> Setting <b class="arrow icon-angle-down"></b>', 'url' => '#',
                                             'submenuOptions' => array('class' => 'submenu'),
                                             'items' => array(
                                                     array('label' => 'Page Default', 'url' => array('/setting/page/'), 'active' => $controller_name == 'page'),

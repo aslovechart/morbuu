@@ -47,7 +47,7 @@
             // NOTE: you should only define rules for those attributes that
             // will receive user inputs.
             return array(
-                    array('email, password', 'required'),
+                    array('email', 'required'),
                     array('active, acc_status, user_group_id', 'numerical', 'integerOnly' => true),
                     array('email, fname, lname', 'length', 'max' => 255),
                     array('gender, birthday', 'length', 'max' => 45),

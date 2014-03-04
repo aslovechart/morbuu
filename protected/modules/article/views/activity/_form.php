@@ -81,7 +81,7 @@
                                             'size' => '20', // textField size
                                             'maxlength' => '10', // textField maxlength
                                     ),
-                                    'options' => array('dateFormat' => 'yy-mm-dd', 'minDate' => 'new Date()',),
+                                    'options' => array('dateFormat' => 'yy-mm-dd'),
                             ));
                         ?>
                     </div>

@@ -28,8 +28,8 @@
                 </article>
                 <ul class="col_6 clearfix">
                     <li><a href="home.php?module=about" target="_blank">ติดต่อเรา</a></li>
-                    <li><a href="#" target="_blank" rel="nofollow">ทดสอบความเร็ว Internet</a></li>
-                    <li><a href="#" target="_blank" rel="nofollow">ดาวน์โหลด Google Chrome</a></li>
+                    <li><a href="#" target="_blank" rel="nofollow">สมัครสมาชิก</a></li>
+                    <li><a href="#" target="_blank" rel="nofollow">ล๊อกอิน</a></li>
                     <li><a href="<?php echo Yii::app()->getBaseUrl(true) ?>" target="_blank">หน้าแรก</a></li>
                 </ul>
             </nav>

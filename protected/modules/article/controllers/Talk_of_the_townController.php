@@ -20,8 +20,7 @@
             // $this->performAjaxValidation($model);
 
             if (isset($_POST['Article'])) {
-                print_r($_POST);
-                exit;
+                
                 $model->attributes = $_POST['Article'];
                 $model->setAttribute('category_id', 2);
                 $model->setAttribute('user_id', Yii::app()->user->id);

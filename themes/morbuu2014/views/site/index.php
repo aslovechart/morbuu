@@ -1,7 +1,7 @@
 <?php
     /* @var $this SiteController */
 
-    $this->pageTitle = Yii::app()->name . 'มอบู ดอทคอม เว็บนี้สำหรับเด็กมอบู';
+    $this->pageTitle = Yii::app()->name . ' เว็บนี้สำหรับเด็กมอบู';
     $baseUrl = Yii::app()->theme->baseUrl . '/assets/';
     $cs = Yii::app()->getClientScript();
 ?>
@@ -28,7 +28,7 @@
 <div class="welcome clearfix">
     <div class="clearfix">
         <section class="mb-01 bx">
-            <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title"/>
+            <h1 class="font">MorBuu Cute</h1>
             <a href="home.php?page=article/article" target="_blank" class="thumb"><img class="rd" src="<?php echo $baseUrl ?>images/temp/temp_09.jpg"></a>
             <p class="font"><a href="home.php?page=article/article" target="_blank"># น้องพลอย</a></p>
             <p class="font">เอกวิทยาศาสตร์การอาหาร (ชั่นปีที่ 4) <br>คณะวิทยาศาสตร์</p>
@@ -36,7 +36,7 @@
         <section class="mb-02 bx clearfix">
             <div class="slide">
                 <div class="slides_container">
-                   <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_slide', 'limit' =>4)); ?>
+                   <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_slide', 'limit' =>4)); ?>
                 </div>
             </div>
             <ul class="other">
@@ -55,21 +55,22 @@
                 <li><a href="#tab-4" class="font"><img src="<?php echo $baseUrl ?>images/icon/game.png"/>คอมพิวเตอร์</a></li>
                 <li><a href="#tab-5" class="font"><img src="<?php echo $baseUrl ?>images/icon/video.png"/>การ์ตูน</a></li>
             </ul>
-            <div id="tab-1" class="clearfix"> <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-1" class="clearfix"> <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 2, 'file_name' => 'section-tabs')); ?></div>
             <div id="tab-2" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
             <div id="tab-3" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
             <div id="tab-4" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
             <div id="tab-5" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            
         </div>
         <div class="-09">
-            <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-list')); ?>
+            <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 2, 'file_name' => 'section-list')); ?>
         </div>
     </div>
     <div class="twin clearfix">
         <section class="mb-04 bx">
-            <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title"/>
+            <h1 class="font">MorBuu Travel</h1>
             <div class="clearfix">
-                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_image_mini_name', 'limit' => 6)); ?>
+                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_image_mini_name', 'limit' => 6)); ?>
             </div>
         </section>
         <div class="mb- bx pd">
@@ -80,16 +81,17 @@
     </div>
     <section class="mb-06">
         <div class="bx inner">
-            <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title" />
+            <h1 class="font">MorBuu News</h1>
             <div class="clearfix">
                 <figure class="hl">
                     <?php
-                        $category_id = 14;
+                        $category_id = 3;
                         $criteria = new CDbCriteria();
                         $criteria->condition = "category_id = $category_id and active = 1 and status = 1 and UNIX_TIMESTAMP(set_time_show) < " . strtotime(date('Y-m-d'));
-                        $criteria->order = 'set_time_show desc';
+                        $criteria->order = 'set_time_show desc,created desc';
                         $criteria->limit = 1;
                         $article = Article::model()->find($criteria);
+                        if (count($article)):
                     ?>
                     <a href="<?php echo Yii::app()->createUrl('/' . $article->id . '-' . $article->url_rewrite) ?>">
                         <?php if ($article->image_over): ?>
@@ -99,33 +101,35 @@
                         <?php endif; ?>
                         <figcaption><?php echo $article->name ?> <?php echo mb_substr(strip_tags($article->content), 0, 200, 'UTF-8') ?></figcaption>
                     </a>
+                    <?php endif;?>
                 </figure>
-                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_image_miden_name', 'limit' => 8, 'offset' => 1)); ?>
+                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_image_miden_name', 'limit' => 8, 'offset' => 1)); ?>
             </div>
         </div>
     </section>
     <div class="twin clearfix">
         <section class="mb-03">
             <div class="bx inner">
-                <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title" />
-                <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-list')); ?>
+                <h1 class="font ">หอพัก / ร้านอาหาร / ร้านค้า</h1>
+                <!--<img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title" />-->
+                <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 2, 'file_name' => 'section-list')); ?>
             </div>
         </section>
         <section class="mb-04 bx">
-            <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title"/>
+            <h1 class="font">VIDEO CLIP</h1>
             <div class="clearfix">
-                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_image_mini_name', 'limit' => 8)); ?>
+                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_image_mini_name', 'limit' => 8)); ?>
             </div>
         </section>
     </div>
     <section class="-07 bx">
-        <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title" />
+        <h1 class="font">MorBuu Boy & Girl</h1>
         <div class="clearfix">
-            <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 14, 'file_name' => 'item_image_lage_name', 'limit' => 5)); ?>
+            <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 2, 'file_name' => 'item_image_lage_name', 'limit' => 5)); ?>
         </div>
     </section>
     <section class="-05 bx">
-        <img src="<?php echo $baseUrl ?>images/heading/buu-girl.png" class="title" />
+        <h1 class="font">Horoscope</h1>
         <ul class="clearfix">
             <?PHP for ($i = 1; $i <= 12; $i++) { ?>
                     <li class="rd">

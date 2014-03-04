@@ -26,7 +26,7 @@ class Controller extends CController {
 
     public function __construct($id, $module = null) {
         parent::__construct($id, $module);
-        Yii::app()->theme = 'admin';
+        Yii::app()->theme = 'ace';
     }
 
     public function filters() {

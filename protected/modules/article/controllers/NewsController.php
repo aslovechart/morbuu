@@ -18,9 +18,9 @@ class NewsController extends Controller {
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);
 
-        if (isset($_POST['Article'])) {print_r($_POST);exit;
+        if (isset($_POST['Article'])) {
             $model->attributes = $_POST['Article'];
-            $model->setAttribute('category_id', 2);
+            $model->setAttribute('category_id', 3);
             $model->setAttribute('user_id', Yii::app()->user->id);
             if ($model->save()) {
                 $relate = array();
@@ -105,7 +105,7 @@ class NewsController extends Controller {
         $model->unsetAttributes();  // clear any default values
         if (isset($_GET['Article']))
             $model->attributes = $_GET['Article'];
-        $model->setAttribute('category_id',array(2));
+        $model->setAttribute('category_id',array(3));
         $this->render('admin', array(
             'model' => $model,
         ));

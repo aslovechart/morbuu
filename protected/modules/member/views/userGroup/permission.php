@@ -8,13 +8,22 @@
     );
 
     $this->menu = array(
-            array('label' => 'Manage UserGroup', 'url' => array('index'), 'icon' => 'icon-th-list'),
-            array('label' => 'Create UserGroup', 'url' => array('create'), 'icon' => 'icon-plus-sign'),
+            array('label' => 'Add New', 'url' => array('create'), 'icon' => 'icon-plus-sign', 'linkOptions' => array(
+                            'class' => 'btn btn-small btn-danger',
+                    ),),
     );
 
     $control = Control::model()->findAll();
 ?>
-<h1>Permission : <?php echo $model->name ?> </h1>
+<div class="page-header position-relative">
+    <h1>
+        <?php echo ucfirst($model->name) ?> 
+        <small>
+            <i class="icon-double-angle-right"></i>
+            Manage
+        </small>
+    </h1>
+</div>
 <div class="form">
     <?php
         /** @var BootActiveForm $form */
@@ -28,8 +37,6 @@
         ));
     ?>
     <fieldset>
-
-        <legend>&nbsp;</legend>
         <?php
             $this->widget('bootstrap.widgets.TbAlert', array(
                     'block' => true, // display a larger alert block?
@@ -69,17 +76,20 @@
                             <td class="button-column">
 
                                 <div class="make-switch switch-small">
-                                    <input type="checkbox" name="create[<?php echo $row->id ?>]" <?php echo @$permission->action_create ? 'checked' : '' ?> value="1">
+                                    <input name="create[<?php echo $row->id ?>]" <?php echo @$permission->action_create ? 'checked' : '' ?> value="1" class="ace-switch ace-switch-2" type="checkbox">
+                                    <span class="lbl"></span>
                                 </div>  
                             </td>
                             <td class="button-column">
                                 <div class="make-switch switch-small">
-                                    <input type="checkbox" name="update[<?php echo $row->id ?>]" <?php echo @$permission->action_update ? 'checked' : '' ?> value="1">
+                                    <input name="update[<?php echo $row->id ?>]" <?php echo @$permission->action_update ? 'checked' : '' ?> value="1" class="ace-switch ace-switch-2" type="checkbox">
+                                    <span class="lbl"></span>
                                 </div>  
                             </td>
                             <td class="button-column">
                                 <div class="make-switch switch-small">
-                                    <input type="checkbox" name="delete[<?php echo $row->id ?>]" <?php echo @$permission->action_delete ? 'checked' : '' ?> value="1">
+                                    <input name="delete[<?php echo $row->id ?>]" <?php echo @$permission->action_delete ? 'checked' : '' ?> value="1" class="ace-switch ace-switch-2" type="checkbox">
+                                    <span class="lbl"></span>
                                 </div>  
                             </td>
                         </tr>
