@@ -36,7 +36,7 @@
         <section class="mb-02 bx clearfix">
             <div class="slide">
                 <div class="slides_container">
-                   <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_slide', 'limit' =>4)); ?>
+                    <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_slide', 'limit' => 4)); ?>
                 </div>
             </div>
             <ul class="other">
@@ -50,17 +50,44 @@
         <div id="tabs" class="indx-tab">
             <ul class="m-tab clearfix">
                 <li><a href="#tab-1" class="font"><img src="<?php echo $baseUrl ?>images/icon/comment.png"/>รวมเรื่องเมาท์</a></li>
-                <li><a href="#tab-2" class="font"><img src="<?php echo $baseUrl ?>images/icon/camera.png"/>โทรศัพท์</a></li>
-                <li><a href="#tab-3" class="font"><img src="<?php echo $baseUrl ?>images/icon/music.png"/>รถยนต์</a></li>
-                <li><a href="#tab-4" class="font"><img src="<?php echo $baseUrl ?>images/icon/game.png"/>คอมพิวเตอร์</a></li>
-                <li><a href="#tab-5" class="font"><img src="<?php echo $baseUrl ?>images/icon/video.png"/>การ์ตูน</a></li>
+                <li><a href="#tab-2" class="font"><img src="<?php echo $baseUrl ?>images/icon/video.png"/>หนังใหม่</a></li>
+                <li><a href="#tab-3" class="font"><img src="<?php echo $baseUrl ?>images/icon/camera.png"/>มือถือ คอมฯ</a></li>
+                <li><a href="#tab-4" class="font"><img src="<?php echo $baseUrl ?>images/icon/music.png"/>เพลง MV</a></li>
+                <li><a href="#tab-5" class="font"><img src="<?php echo $baseUrl ?>images/icon/game.png"/>กีฬา</a></li>
+
             </ul>
             <div id="tab-1" class="clearfix"> <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 2, 'file_name' => 'section-tabs')); ?></div>
             <div id="tab-2" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
-            <div id="tab-3" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
+            <div id="tab-3" class="clearfix">
+
+                <figure class="hl">
+                    <?php
+                        $category = Category::model()->findAll(array('condition' => 'category_id = 4', 'order' => 'name asc'));
+                        $category_id = CHtml::listData($category, 'id', 'id');
+
+                        $criteria = new CDbCriteria();
+                        $criteria->condition = "category_id in (" . implode(',', $category_id+array(0)) . ") and active = 1 and status = 1 and UNIX_TIMESTAMP(set_time_show) < " . strtotime(date('Y-m-d'));
+                        $criteria->order = 'set_time_show desc,created desc';
+                        $criteria->limit = 1;
+                        $article = Article::model()->find($criteria);
+                        if (count($article)):
+                            ?>
+                            <a href="<?php echo Yii::app()->createUrl('/' . $article->id . '-' . $article->url_rewrite) ?>">
+                                <?php if ($article->image_over): ?>
+                                    <img src="<?php echo $article->image_over ?>" class="rd" />
+                                <?php else: ?>
+                                    <img src="http://placehold.it/600x500&text=No Image" class="rd" />
+                                <?php endif; ?>
+                                <figcaption><?php echo $article->name ?> <?php echo mb_substr(strip_tags($article->content), 0, 200, 'UTF-8') ?></figcaption>
+                            </a>
+                        <?php endif; ?>
+                </figure>
+
+                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => $category_id, 'file_name' => 'item_image_miden_name', 'limit' => 8, 'offset' => 1,'is_group'=>true)); ?>
+            </div>
             <div id="tab-4" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
             <div id="tab-5" class="clearfix"><?php $this->widget('ext.morbuuItem.Section', array('category_id' => 14, 'file_name' => 'section-tabs')); ?></div>
-            
+
         </div>
         <div class="-09">
             <?php $this->widget('ext.morbuuItem.Section', array('category_id' => 2, 'file_name' => 'section-list')); ?>
@@ -92,18 +119,18 @@
                         $criteria->limit = 1;
                         $article = Article::model()->find($criteria);
                         if (count($article)):
-                    ?>
-                    <a href="<?php echo Yii::app()->createUrl('/' . $article->id . '-' . $article->url_rewrite) ?>">
-                        <?php if ($article->image_over): ?>
-                                <img src="<?php echo $article->image_over ?>" class="rd" />
-                            <?php else: ?>
-                                <img src="http://placehold.it/600x500&text=No Image" class="rd" />
+                            ?>
+                            <a href="<?php echo Yii::app()->createUrl('/' . $article->id . '-' . $article->url_rewrite) ?>">
+                                <?php if ($article->image_over): ?>
+                                    <img src="<?php echo $article->image_over ?>" class="rd" />
+                                <?php else: ?>
+                                    <img src="http://placehold.it/600x500&text=No Image" class="rd" />
+                                <?php endif; ?>
+                                <figcaption><?php echo $article->name ?> <?php echo mb_substr(strip_tags($article->content), 0, 200, 'UTF-8') ?></figcaption>
+                            </a>
                         <?php endif; ?>
-                        <figcaption><?php echo $article->name ?> <?php echo mb_substr(strip_tags($article->content), 0, 200, 'UTF-8') ?></figcaption>
-                    </a>
-                    <?php endif;?>
                 </figure>
-                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => 3, 'file_name' => 'item_image_miden_name', 'limit' => 8, 'offset' => 1)); ?>
+                <?php $this->widget('ext.morbuuItem.ShowByCategory', array('category_id' => $category_id, 'file_name' => 'item_image_miden_name', 'limit' => 8, 'offset' => 1)); ?>
             </div>
         </div>
     </section>

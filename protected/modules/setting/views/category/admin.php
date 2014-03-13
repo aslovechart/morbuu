@@ -46,7 +46,7 @@
                     array(// display 'author.username' using an expression
                             'name' => 'name',
                             'type' => 'raw',
-                            'value' => 'CHtml::link($data->name,Yii::app()->createUrl("article/category/sub",array("id"=>$data->id)), array("title"=>"Sub Category","data-original-title"=>"Sub Category","rel"=>"tooltip"))',
+                            'value' => 'CHtml::link($data->name,Yii::app()->createUrl("setting/category/sub",array("id"=>$data->id)), array("title"=>"Sub Category","data-original-title"=>"Sub Category","rel"=>"tooltip"))',
                     ),
                     array(
                             'name' => 'active',

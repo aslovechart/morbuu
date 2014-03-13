@@ -24,7 +24,7 @@
         <?php echo $form->errorSummary($model); ?>
         <div class="row">
             <?php
-                $category = Category::model()->findAll(array('condition' => 'category_id = 4', 'order' => 'name asc'));
+                $category = Category::model()->findAll(array('condition' => 'category_id = 8', 'order' => 'name asc'));
                 $categoryArr = CHtml::listData($category, 'id', 'name');
                 echo $form->dropDownListRow($model, 'category_id', array('' => 'เลือกประเภท') + $categoryArr);
             ?>

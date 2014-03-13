@@ -13,6 +13,7 @@
     class ShowByCategory extends CInputWidget {
 
         public $category_id;
+        public $is_group = false;
         public $limit;
         public $file_name;
         public $offset = 0;
@@ -27,6 +28,7 @@
                     'file_name' => $this->file_name,
                     'limit' => $this->limit,
                     'offset' => $this->offset,
+                    'is_group' => $this->is_group
             ));
         }
 

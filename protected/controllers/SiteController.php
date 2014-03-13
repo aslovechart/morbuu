@@ -130,7 +130,7 @@ class SiteController extends Controller {
 
     public function actionView($id) {
         $model = Article::model()->findByPK($id);
-        if (!$model->id) {
+        if (!@$model->id) {
             throw new CHttpException('ไม่พบข้อมูล');
         }
         $model->setAttribute('count_view', $model->count_view + 1);

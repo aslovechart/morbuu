@@ -7,7 +7,7 @@
     Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
     return array(
             'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-            'name' => 'มอบู ดอทคอม ',
+            'name' => 'local มอบู ดอทคอม ',
             // preloading 'log' component
             'preload' => array('log'),
             // autoloading model and component classes
