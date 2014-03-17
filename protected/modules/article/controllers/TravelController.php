@@ -1,6 +1,6 @@
 <?php
 
-    class Travel_around_thailandController extends Controller {
+    class TravelController extends Controller {
 
         /**
          * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -106,7 +106,7 @@
             $model->unsetAttributes();  // clear any default values
             if (isset($_GET['Article']))
                 $model->attributes = $_GET['Article'];
-            $category = Category::model()->findAll(array('condition' => 'category_id = 1', 'order' => 'name asc'));
+            $category = Category::model()->findAll(array('condition' => 'category_id = 13', 'order' => 'name asc'));
             $categoryArr = CHtml::listData($category, 'id', 'id');
             $model->setAttribute('category_id', $categoryArr);
             $this->render('admin', array(

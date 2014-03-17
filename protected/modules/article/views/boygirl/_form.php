@@ -18,17 +18,10 @@
         ));
     ?>
     <fieldset>
-
         <p class="note">Fields with <span class="required">*</span> are required.</p>
 
         <?php echo $form->errorSummary($model); ?>
-        <div class="row">
-            <?php
-                $category = Category::model()->findAll(array('condition' => 'category_id = 1', 'order' => 'name asc'));
-                $categoryArr = CHtml::listData($category, 'id', 'name');
-                echo $form->dropDownListRow($model, 'category_id', array('' => 'เลือกประเภท') + $categoryArr);
-            ?>
-        </div>
+
 
         <div class="row">
             <?php echo $form->textFieldRow($model, 'name', array('size' => 60, 'maxlength' => 255, 'class' => 'span10 friendlyURL')); ?>
@@ -63,7 +56,7 @@
                     </div>
                 </div>
             </div>           
-            <?php //echo $form->textAreaRow($model, 'content', array('rows' => 6, 'cols' => 50, 'class' => 'span10'));  ?>
+            <?php //echo $form->textAreaRow($model, 'content', array('rows' => 6, 'cols' => 50, 'class' => 'span7'));  ?>
         </div>
 
         <div class="row">
@@ -81,7 +74,7 @@
                                             'size' => '20', // textField size
                                             'maxlength' => '10', // textField maxlength
                                     ),
-                                    'options' => array('dateFormat' => 'yy-mm-dd', 'minDate' => 'new Date()',),
+                                    'options' => array('dateFormat' => 'yy-mm-dd'),
                             ));
                         ?>
                     </div>
@@ -145,14 +138,15 @@
             <div class="control-group ">
                 <?php echo $form->labelEx($model, 'active', array('class' => 'control-label required')); ?>
                 <div class="controls ">
-                    <?php echo $form->checkBox($model, 'active', array('class' => 'ace-switch ace-switch-7', 'value' => 1, 'uncheckValue' => 0)); ?>
-                    <span class="lbl"></span>
+                <?php echo $form->checkBox($model, 'active', array('class' => 'ace-switch ace-switch-7', 'value' => 1, 'uncheckValue' => 0)); ?>
+                     <span class="lbl"></span>
 
                 </div>
             </div>
 
 
         </div>
+
 
         <div class="form-actions">
             <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType' => 'submit', 'type' => 'primary', 'label' => 'Submit')); ?>
@@ -164,17 +158,13 @@
 
 
 <?php
-    if ($model->isNewRecord) {
-        $review = "
-         $('.friendlyURL').live('keyup',function(){
-            $('.url_rewrite').val(str2url($(this).val().replace(/^[0-9]+\./, ''), 'UTF-8'));
-        });";
-    }
     Yii::app()->clientScript->registerScript('friendlyURL', "
-$('.url_rewrite').live('keyup',function(){
+ $('.friendlyURL').live('keyup',function(){
+            $('.url_rewrite').val(str2url($(this).val().replace(/^[0-9]+\./, ''), 'UTF-8'));
+        });
+        $('.url_rewrite').live('keyup',function(){
             $(this).val(str2url($(this).val().replace(/^[0-9]+\./, ''), 'UTF-8'));
         });
-        " . @$review . "
 function str2url(str,encoding,ucfirst)
 {
 	str = str.toUpperCase();
