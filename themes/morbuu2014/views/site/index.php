@@ -186,13 +186,7 @@
     <section class="-05 bx">
         <h1 class="font">Horoscope</h1>
         <ul class="clearfix">
-            <?PHP for ($i = 1; $i <= 12; $i++) { ?>
-                    <li class="rd">
-                        <a href="#" class="thumb"><img src="<?php echo $baseUrl ?>images/horo/01.png"></a>
-                        <p class="font">ราศรีกรกกฎ</p>
-                        <p class="between">15 พฤศจิกายน - 15 ธันวาคม</p>
-                    </li>
-                <?PHP } ?>
+            <?php $this->widget('ext.morbuuItem.Horoscope', array('category_id' => 19, 'file_name' => 'item_image_miden_name', 'limit' => 12, 'offset' => 0)); ?>
         </ul>
     </section>
     <div class="bx -lnk clearfix">

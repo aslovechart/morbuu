@@ -20,7 +20,7 @@ class PageController extends Controller {
 
         if (isset($_POST['Article'])) {
             $model->attributes = $_POST['Article'];
-            $model->setAttribute('category_id', 26);
+            $model->setAttribute('category_id', 19);
             $model->setAttribute('user_id', Yii::app()->user->id);
             if ($model->save()) {
                 $relate = array();
@@ -104,7 +104,7 @@ class PageController extends Controller {
         $model->unsetAttributes();  // clear any default values
         if (isset($_GET['Article']))
             $model->attributes = $_GET['Article'];
-        $model->setAttribute('category_id', array(26));
+        $model->setAttribute('category_id', array(19));
         $this->render('admin', array(
             'model' => $model,
         ));

@@ -392,33 +392,33 @@
 
             <div class="main-content">
                 <div class="breadcrumbs" id="breadcrumbs">
-<?php if (isset($this->breadcrumbs)): ?>
-        <?php
-        $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
-                'homeLink' => '<i class="icon-dashboard"></i>' . CHtml::link('Dashboard', Yii::app()->createUrl('myadmin')),
-                'links' => $this->breadcrumbs,
-                'separator' => '<span class="divider">
+                    <?php if (isset($this->breadcrumbs)): ?>
+                            <?php
+                            $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+                                    'homeLink' => '<i class="icon-dashboard"></i>' . CHtml::link('Dashboard', Yii::app()->createUrl('myadmin')),
+                                    'links' => $this->breadcrumbs,
+                                    'separator' => '<span class="divider">
 								<i class="icon-angle-right arrow-icon"></i>
 							</span>',
-        ));
-        ?><!-- breadcrumbs -->
+                            ));
+                            ?><!-- breadcrumbs -->
                         <?php endif ?>
 
                     <div class="nav-search" id="nav-search">
-                    <?php
-                        $this->widget('bootstrap.widgets.TbMenu', array(
-                                'type' => 'pills ',
-                                'items' => $this->menu,
-                                // 'htmlOptions' => array('class' => 'nav nav-pills'),
-                        ));
-                    ?>
+                        <?php
+                            $this->widget('bootstrap.widgets.TbMenu', array(
+                                    'type' => 'pills ',
+                                    'items' => $this->menu,
+                                    // 'htmlOptions' => array('class' => 'nav nav-pills'),
+                            ));
+                        ?>
                     </div><!--#nav-search-->
                 </div>
 
                 <div class="page-content">                   
                     <div class="row-fluid">
                         <div class="span12">
-<?php echo $content; ?>
+                            <?php echo $content; ?>
                         </div>
                     </div><!--/.row-fluid-->
                 </div><!--/.page-content-->
